@@ -8,8 +8,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-                // Blue-500
+             lightHover:'#fcf4ff',
+             darkHover: '#2a004a',
+             darkTheme:'#11001F' , // Blue-500
       },
+      fontFamily:{
+        Outfit:["Outfit", "sans-serif"],
+        Ovo:["Ovo", "serif"]
+      },
+      boxShadow:{
+        'black':'4px 4px 0 #000',
+        'white':'4px 4px 0 #fff'
+      }
     },
   },
   plugins: [],
