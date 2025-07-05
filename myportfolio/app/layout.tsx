@@ -3,9 +3,11 @@ import { Outfit as outfit, Ovo as ovo} from "next/font/google";
 import "./globals.css";
 
 const Outfit = outfit({
-
-  subsets: ["latin"],weight:["400","500","600","700"]
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  fallback: ['sans-serif']  // ✅ fallback
 });
+
 
 const Ovo = ovo({
 
@@ -23,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${Outfit.className} ${Ovo.className} antialiased leading-8 overflow-x-hidden`}
       >
