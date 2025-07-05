@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import assets from '../../assets'
+import {assets} from`@assets/assets.js`
 
 import React, { use, useRef } from 'react'
 
