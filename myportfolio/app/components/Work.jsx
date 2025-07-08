@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { assets, workData } from '../../assets/assets.js' 
 const Work = () => {
   return (
     <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
