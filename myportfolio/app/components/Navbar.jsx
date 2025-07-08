@@ -55,7 +55,8 @@ const Navbar = (isDarkMode, setIsDarkMode) => {
             contact
             <Image src={isDarkMode ? assets.arrow_icon_dark:assets.arrow_icon} alt="Arrow Icon" width={12} height={12} className="w-3" />
           </a>
-
+    
+    
           <button className='block:md hidden ml-3' onClick={openMenu}>
             <Image src={ isDarkMode ? assets.menu_white:assets.menu_black} alt="menu" className='w-6' />
           </button>
