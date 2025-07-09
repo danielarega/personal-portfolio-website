@@ -3,7 +3,8 @@
 import React from 'react'
 import Image from'next/image'
 import { assets } from '../../assets/assets.js'      
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
+
 const Header = ({isDarkMode}) => {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center  justify-center gap-4'>

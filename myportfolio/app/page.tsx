@@ -1,5 +1,5 @@
 // ./app/page.tsx
-
+"use client";
 import React, { useEffect, useState } from 'react';
 import Navbar from './components/Navbar'; // Adjust the path as needed
 import Header from './components/Header';
@@ -32,13 +32,13 @@ if(isDarkMode){
   },[isDarkMode])
   return (
     <div>
-      <Navbar/>
-      <Header/>
-      <About/>
-      <Services/>
-      <Work/>
-      <Contact />
-      <Footer/>
+      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+      <Header isDarkMode={isDarkMode}/>
+      <About isDarkMode={isDarkMode}/>
+      <Services isDarkMode={isDarkMode}/>
+      <Work isDarkMode={isDarkMode}/>
+      <Contact isDarkMode={isDarkMode} />
+      <Footer isDarkMode={isDarkMode}/>
     </div>
   );
 }

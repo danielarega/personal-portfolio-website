@@ -1,10 +1,14 @@
-import React from 'react'
+"use client";
+
+
 import Image from 'next/image'
  
 import { assets } from '../../assets/assets.js'      
 
-import React,{useState} from 'react'
-import { motion } from "motion/react" 
+import React, { useState } from 'react'
+
+import { motion } from "framer-motion"
+
 const Contact = ({isDarkMode}) => {
 
 

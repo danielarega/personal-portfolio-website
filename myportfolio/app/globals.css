@@ -1,24 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   font-family: Outfit, sans-serif;
 }
 
-/* Remove default margin and padding */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
-
-/* Example custom scrollbar styling */
-::-webkit-scrollbar {
-  width: 8px;
-  background: #e5e7eb;
-}
-::-webkit-scrollbar-thumb {
-  background: #a1a1aa;
-  border-radius: 4px;
-}

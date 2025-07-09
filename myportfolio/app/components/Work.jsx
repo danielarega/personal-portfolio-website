@@ -1,7 +1,9 @@
+"use client";
+
 import Image from 'next/image'
 import React from 'react'
 import { assets, workData } from '../../assets/assets.js'
-import { motion } from "motion/react"  
+import { motion } from "framer-motion"
 const Work = (isDarkMode) => {
   return (
     <motion.div 

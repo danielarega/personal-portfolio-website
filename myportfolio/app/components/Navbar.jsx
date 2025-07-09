@@ -5,7 +5,7 @@ import React, { useState, useRef } from 'react';
 import { assets } from '../../assets/assets.js'  
 import {useEffect} from 'react'
 
-const Navbar = (isDarkMode, setIsDarkMode) => {
+const Navbar = ({isDarkMode, setIsDarkMode}) => {
   const [isScroll, setIsScoll] = useState(false);
   const sideMenuRef = useRef();
 

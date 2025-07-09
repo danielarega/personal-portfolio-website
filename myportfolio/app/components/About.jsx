@@ -1,15 +1,11 @@
 "use client";
 import Image from 'next/image';
-import { assets, infoList } from '../../assets/assets.js'   
+import { assets, infoList,toolsData } from '../../assets/assets.js'   
 import React from 'react'
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
+
 
 // Example toolsData array, replace with your actual data or import if defined elsewhere
-const toolsData = [
-  assets.tool1, // replace with actual tool image paths or objects
-  assets.tool2,
-  assets.tool3,
-];
 
 const About = (isDarkMode) => {
   return (
