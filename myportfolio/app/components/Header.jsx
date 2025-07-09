@@ -13,7 +13,7 @@ const Header = ({isDarkMode}) => {
       whileInView={{scale:1}}
       transition={{duration:0,type:"spring", stiffness:100}}
       >
-        <Image src={assets.profile_img} alt="profile" className=' rounded-full w-32' />
+        <Image src={assets.profile_img} alt="profile" className=' rounded-full w-32 h-32 object-cover' />
 
       </motion.div>
 
