@@ -19,14 +19,14 @@ export default function Services({isDarkMode}) {
       whileInView={{y:0,opacity:1}}
       transition={{delay:0.3,duration:0.5}}
       
-      className='text-center mb-2 text-lg font-ovo'>what i offer</motion.h4>
+      className='text-center mb-2 text-lg font-Ovo'>what i offer</motion.h4>
       <motion.h2 
       
        initial={{y:-20,opacity:0}}
       whileInView={{y:0,opacity:1}}
       transition={{delay:0.3,duration:0.5}}
       
-      className='text-center text-5xl font-ovo'>my services</motion.h2>
+      className='text-center text-5xl font-Ovo'>my services</motion.h2>
 
       <motion.p 
       initial={{opacity:0}}
@@ -35,7 +35,7 @@ export default function Services({isDarkMode}) {
       
       
       
-      className='text-center max-w-2xl mx-auto mt-5 mb-12   font-ovo'>i am frontend developer from ethiopia with zero year of experience in multiple companies like arsi university, gebeya.com.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>i am frontend developer from ethiopia with zero year of experience in multiple companies like arsi university, gebeya.com.</motion.p>
       <motion.div 
       initial={{opacity:0}}
       whileInView={{opacity:1}}
@@ -55,7 +55,7 @@ export default function Services({isDarkMode}) {
 <p className='text-sm text-gray-600 leading-5 dark:text-white/80'>
   {description}
 </p>
-<a href={link} className='flex items-center gap-2 text-sm  mt-5'>Read more <Image src={assets.right_arrow} alt='right arrow' className='w-4'/></a>
+<a href={link} className='flex items-center gap-2 text-sm mt-5'>Read more <Image src={assets.right_arrow} alt='right arrow' className='w-4'/></a>
   </motion.div>
 
 ))}

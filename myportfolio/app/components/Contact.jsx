@@ -50,14 +50,14 @@ return (
       whileInView={{y:0,opacity:1}}
       transition={{delay:0.3,duration:0.5}}
          
-         className='text-center mb-2 text-lg font-ovo'>connect with me</motion.h4>
+         className='text-center mb-2 text-lg font-Ovo'>connect with me</motion.h4>
         <motion.h2 
         initial={{y:-20,opacity:0}}
       whileInView={{y:0,opacity:1}}
       transition={{delay:0.5,duration:0.5}}
         
         
-        className='text-center text-5xl font-ovo'>Get in touch</motion.h2>
+        className='text-center text-5xl font-Ovo'>Get in touch</motion.h2>
 
         <motion.p 
         initial={{y:-20,opacity:0}}
@@ -65,7 +65,7 @@ return (
       transition={{delay:0.7,duration:0.5}}
         
         
-        className='text-center max-w-2xl mx-auto mt-5 mb-12   font-ovo'>I'd love to hear from you! if you have any question , comments, or feedback, please use the form below.</motion.p>
+        className='text-center max-w-2xl mx-auto mt-5 mb-12  font-Ovo'>I'd love to hear from you! if you have any question , comments, or feedback, please use the form below.</motion.p>
         <motion.form 
          initial={{opacity:0}}
     whileInView={{opacity:1}}
@@ -106,9 +106,9 @@ whileInView={{scale:1.05}}
 transition={{duration:0.3}}
             
             
-            type="submit" className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover'>submit now <Image src={assets.right_arrow_white} alt='rightarrow' className='w-4' width={16} height={16} /></motion.button>
+            type="submit" className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover'>submit now <Image src={assets.right_arrow_white} alt='rightarrow' className='w-4' /></motion.button>
             <p className='mt-4'>
-            {result}  
+            {result}
             </p>
         </motion.form>
     </motion.div>
