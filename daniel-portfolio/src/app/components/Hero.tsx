@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeInUp, fadeIn, scaleIn } from '@/utils/animations';
 
@@ -71,7 +71,7 @@ export default function Hero() {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaTwitter />
+              <FaInstagram />
             </motion.a>
           </motion.div>
           <motion.div 
@@ -84,10 +84,10 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
             >
               <Link
-                href="/projects"
+                href="/projects/myresume.pdf" download
                 className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
               >
-                View Projects
+                Download CV
               </Link>
             </motion.div>
             <motion.div

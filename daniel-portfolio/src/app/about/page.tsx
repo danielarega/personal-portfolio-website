@@ -124,9 +124,8 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-2">junior Full Stack Developer</h3>
             <p className="text-primary mb-2">ARSI UNIVERSITY • 2025 - Present</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
-              <li>Led development of multiple web applications using React and Node.js</li>
-              <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
-              <li>Mentored junior developers and conducted code reviews</li>
+              <li> development of multiple web applications using React and Node.js</li>
+              i am a junoir frontend developer with over a one years of learning expertise in the field throughtout my university period
             </ul>
           </motion.div>
           
